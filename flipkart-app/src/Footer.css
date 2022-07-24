@@ -1,0 +1,17 @@
+/* @media screen and (max-width:800px) {
+  
+#cardstyle
+{
+    float: right;
+    color:grey;
+    font-size:.8rem;
+}  
+} */
+
+
+#cardstyle
+{
+    
+    color:grey;
+    font-size:.8rem;
+}
