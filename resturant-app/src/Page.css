@@ -1,0 +1,59 @@
+.mainpage {
+    text-align: center;
+    color: azure;
+    position: relative;
+
+
+  }
+.backbtn{
+    position:absolute;
+    top: 3;
+    left: 3;
+}
+.backbtn img {
+    width: 30px;
+    cursor: pointer;
+}
+.pageimg{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.offermarq{
+    color: rgba(255, 20, 71, 0.986);
+    font-size: 25px;
+    font-weight: bolder;
+}
+table{
+    margin-right: 10%;
+    margin-left: 10%;
+    align-items: center;
+    border-collapse: collapse;
+}
+th, td {
+    width: 1000px;
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+.reviewbox{
+    text-align: start;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    border:0 solid black;
+    border-radius: 10px;
+    color: white;
+}
+.reviewhead{
+    text-align: start;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.mainhead{
+    
+    margin: 20px;
+    font-size: 50px;
+    font-weight: bolder;
+}

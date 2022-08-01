@@ -1,0 +1,93 @@
+body{
+  border: 10px solid #6C63FF;
+  height: 100vh;
+  padding: 0px 20px ;
+  /* margin: 20px 0px; */
+}
+.App {
+  color: #6C63FF;
+}
+.App img{
+  width: 50%;
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar li{
+  padding: 10px 0px;
+  list-style: none;
+  margin: 0px 1vw;
+}
+.logoname{
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 25px 40px;
+}
+.btndesign{
+  width: max-content;
+  cursor: pointer;
+  background-color: #6C63FF;
+  color: white;
+  height: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+.btndesign:hover{
+  text-decoration: none;
+  background-color: #100b61;
+}
+.links{
+  display: flex;
+  justify-content: space-between;
+}
+.pagecontent{
+  padding: 10%;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+
+}
+.leftpart{
+  width: 40%;
+}
+.online{
+  font-size: 6vw;
+  font-weight: bolder;
+  margin: 2px 0px;
+}
+.edu{
+  margin: 2px 0px;
+  font-size: 5vw;
+  font-weight: 200;
+}
+.para{
+  text-align: justify;
+  font-size: 1.2vw;
+ 
+}
+.morebtn{
+  width: max-content;
+}
+.links li{
+  cursor: pointer;
+
+}
+.navlink{
+  font-size: 2vw;
+  color: #6C63FF;
+  text-decoration: none;
+}
+.navlink:hover{
+  color: #100b61;
+  text-decoration: none;
+}

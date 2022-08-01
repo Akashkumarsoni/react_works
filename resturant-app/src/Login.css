@@ -1,0 +1,67 @@
+.loginback{
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0)), url("https://images.unsplash.com/photo-1555992457-b8fefdd09069?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+}
+.logincontainer{
+    align-items: center;
+    padding: 3vw;
+    width: 50vw;
+    background-color: white;
+    backdrop-filter: blur(10px);
+    /* padding: 50px; */
+}
+.tablelogin{
+    border: none;
+}
+
+.tablelogin td{
+    border: none;
+
+}
+
+.tablelogin th{
+    font-size: 2vw;
+    border: none;
+    padding-right: 4vw;
+}
+.inps{
+    font-size: 2vw;
+    padding: 10px;
+    /* background-color: rgb(0, 0, 0); */
+}
+.inps:hover{
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #ff214f;
+    color: #ff214f
+}
+.loginbtn{
+    font-size: 2vw;
+    color: white;
+    padding: 10px;
+    background-color: #ff214f;
+    margin: 20px;
+    width: 20vw;
+}
+.loginbtn:hover{
+    font-size: 2vw;
+    margin: 20px;
+    background-color: #eb0b37;
+    width: 20vw;
+    cursor: pointer;
+}
+.pagename{
+    text-align: center;
+    color: #ff214f;
+    font-size: 4vw;
+}
+.clickme:hover{
+    cursor: pointer;
+    color: #eb0b37;
+}
