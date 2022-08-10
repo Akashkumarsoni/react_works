@@ -5,7 +5,7 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareOutlinedIcon from '@mui/icons-material/ShareOutlined';
 import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
-const Postbox = (props) => {
+const PostboxVideo = (props) => {
     const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
     return (
     <div className='postbox'>
@@ -19,8 +19,14 @@ const Postbox = (props) => {
             <ShareOutlinedIcon  sx={{margin:"15px 5px",fontSize:"20px"}}/>
 
         </div>
-        <img className='post_pic' alt='' src={props.postImg}/>
-            {/* <img className='post_pic' alt='' src='https://images.unsplash.com/photo-1511600173735-a896042389cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80'/> */}
+        {/* <img className='post_pic' alt='' src={props.postImg}/> */}
+        <video
+          className='post_pic'
+        //   width="100%"
+        //   height={height}
+          controls
+          src={props.videos}
+        />
             <div className='postcontnt'>
             <Checkbox {...label} icon={<FavoriteBorderIcon  />} checkedIcon={<FavoriteIcon sx={{color:"red"}} />} />
             <InputBase
@@ -34,4 +40,4 @@ const Postbox = (props) => {
   )
 }
 
-export default Postbox
+export default PostboxVideo

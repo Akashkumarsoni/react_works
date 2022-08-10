@@ -12,6 +12,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { contextname } from './Context';
 
 function Copyright(props) {
   return (
@@ -29,13 +30,32 @@ function Copyright(props) {
 const theme = createTheme();
 
 export default function Signup() {
+  const contxt = React.useContext(contextname);
+  // users,setUsers
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
-    console.log({
-      email: data.get('email'),
-      password: data.get('password'),
-    });
+    console.log(data.get('cpassword'));
+    if(data.get('name')==='' ||data.get('email')===''||data.get('password')===''){
+      alert("All fields are mendatory");
+    }
+    else{
+      if(data.get('password') === data.get('cpassword')){
+        let a = {
+          name:data.get('name'),
+          mail: data.get('email'),
+          pass: data.get('password'),
+        };
+        contxt.setUsers([...contxt.users,a])
+        console.log(a);
+      }
+      else{
+        alert("Passwords are not matching!")
+      }
+    }
+    
+    console.log(contxt.users)
+    
   };
 
   return (
@@ -65,8 +85,8 @@ export default function Signup() {
               fullWidth
               id="email"
               label="Enter name"
-              name="email"
-              autoComplete="email"
+              name="name"
+              autoComplete="name"
               autoFocus
             />
             <TextField
@@ -77,7 +97,7 @@ export default function Signup() {
               label="Email Address"
               name="email"
               autoComplete="email"
-              autoFocus
+             
             />
             <TextField
               margin="normal"
@@ -87,17 +107,17 @@ export default function Signup() {
               label="Password"
               type="password"
               id="password"
-              autoComplete="current-password"
+              
             />
             <TextField
               margin="normal"
               required
               fullWidth
-              name="password"
+              name="cpassword"
               label="Confirm Password"
-              type="password"
-              id="password"
-              autoComplete="current-password"
+              type="cpassword"
+              id="cpassword"
+             
             />
             {/* <FormControlLabel
               control={<Checkbox value="remember" color="primary" />}
