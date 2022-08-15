@@ -1,0 +1,148 @@
+{
+  "users": [
+    {
+      "id": "8ad0a5b1-c003-4aa1-a274-ae962a68911e",
+      "name": "Akash",
+      "mail": "akash@co.in",
+      "pass": "1234"
+    },
+    {
+      "id": "a507db41-7159-4a89-967f-42bb3f479ea3",
+      "name": "kamal",
+      "mail": "nayan.co.in",
+      "pass": "1234"
+    },
+    {
+      "id": "bb88893c-9c91-4dc8-b7a8-99373f059bb5",
+      "name": "asd",
+      "mail": "111",
+      "pass": "111"
+    },
+    {
+      "id": "dfcd334f-5b76-48de-bb8b-6cfea6c3d281",
+      "name": "Ashutosh",
+      "mail": "ashu@gmail.com",
+      "pass": "111"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "my first post",
+      "author": "Aashi",
+      "contentimg": "https://1fid.com/wp-content/uploads/2022/03/cute-girl-dp-image-2-1024x1024.jpg",
+      "comments": [
+        {
+          "commentid": "191",
+          "uid": 2,
+          "username": "Akash",
+          "commentarea": "nice comment"
+        },
+        {
+          "commentid": "1921",
+          "uid": 2,
+          "username": "Akash",
+          "commentarea": "nice comment1"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "my second post",
+      "author": "Aarohi",
+      "contentimg": "https://i.pinimg.com/736x/1a/ff/61/1aff6198920bf5a580ff1f37c8909c59.jpg",
+      "content": ""
+    },
+    {
+      "id": 3,
+      "title": "my lovely post",
+      "author": "Sanjana",
+      "contentimg": "https://blogger.googleusercontent.com/img/a/AVvXsEgHGP8rMEc8eHYPciSVOjfRzsL-yqq_knUrfss7s_spus43RR2tXK5vfNkEowMBr7YPPURg1-hfRIRKPabUrJtFj0uhMM5f3nHPX16F2ALfm01Nb5ozCM6EDlU8qdSGTTKDNeye2-3kNOUuhwiRpUclqL2p1mkT6j_msp8F_200lbD_L_IdFtvSAcYp=w512-h640",
+      "content": ""
+    },
+    {
+      "id": 4,
+      "title": "my lovely post",
+      "author": "Sanjana",
+      "contentimg": "https://i.pinimg.com/736x/fd/72/44/fd724467e420aeed9df267cb76c4463e.jpg",
+      "content": ""
+    },
+    {
+      "id": "fe826e8a-097a-4522-88bb-46c12e9ebf02",
+      "title": "werwer",
+      "author": "werwerwerwer",
+      "contentimg": "",
+      "content": "werwerwerwer"
+    },
+    {
+      "title": "zsd",
+      "author": "Akash",
+      "contentimg": "blob:http://localhost:3000/063cf8e1-8b81-4e63-958b-b3ed9e60abcd",
+      "content": "",
+      "id": "1262686f-9a75-4c9d-977e-a62283745dc5"
+    },
+    {
+      "id": "6e594d1e-098a-4ea2-8308-e950ce06af98",
+      "title": "ASDSA",
+      "author": "Akash",
+      "contentimg": "",
+      "content": "SDASDASDAD"
+    },
+    {
+      "id": "0cefe801-e686-49da-bdcf-1f739255563a",
+      "title": "ASDSA",
+      "author": "Akash",
+      "contentimg": "",
+      "content": "SDASDASDAD"
+    },
+    {
+      "id": "b27ee64f-0543-49a7-9036-fb4f5a9aadb3",
+      "title": "ASDSA",
+      "author": "Akash",
+      "contentimg": "",
+      "content": "SDASDASDAD"
+    },
+    {
+      "id": "d318f095-83cc-4041-a267-b98e95ad2478",
+      "title": "ASDSA",
+      "author": "Akash",
+      "contentimg": "",
+      "content": "SDASDASDAD"
+    },
+    {
+      "id": "c33253d0-9606-406b-bd67-534404cbf7aa",
+      "title": "ASDASDASDASDA",
+      "author": "Akash",
+      "contentimg": "",
+      "content": "ASDASDA"
+    },
+    {
+      "id": "c02f5697-6985-4020-8cc6-656cb6f5d7b6",
+      "title": "ASDASDASDASDA",
+      "author": "Akash",
+      "contentimg": "",
+      "content": "ASDASDA"
+    },
+    {
+      "id": "97bea3cb-990f-4925-9aaf-a740c96e5a7e",
+      "title": "ASDASDASDASDA",
+      "author": "Akash",
+      "contentimg": "",
+      "content": "ASDASDA"
+    }
+  ],
+  "comments": [
+    {
+      "commentid": "191",
+      "uid": 2,
+      "username": "Akash",
+      "commentarea": "nice comment"
+    },
+    {
+      "commentid": "1921",
+      "uid": 2,
+      "username": "Akash",
+      "commentarea": "nice comment1"
+    }
+  ]
+}
